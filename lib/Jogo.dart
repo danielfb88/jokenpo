@@ -8,6 +8,20 @@ class Jogo extends StatefulWidget {
 class _JogoState extends State<Jogo> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("JokenPo"),
+      ),
+      body: Column(
+        children: <Widget>[
+          //text
+          //imagem
+
+          //text resultado
+          //linha 3 imagens
+          
+        ],
+      ),
+    );
   }
 }
